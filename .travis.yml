@@ -7,3 +7,5 @@ before_install:
   - docker build -t franklinkim/ansible-trusty .
   - docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
   - docker push franklinkim/ansible-trusty
+script:
+  - rake test
