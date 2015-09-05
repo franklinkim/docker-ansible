@@ -9,8 +9,8 @@ RUN apt-get clean
 
 ADD ansible.cfg /etc/ansible/ansible.cfg
 
-RUN mkdir /usr/shared/ansible/roles
-RUN mkdir /usr/shared/ansible/library
+RUN mkdir -p /usr/share/ansible/roles
+RUN mkdir -p /usr/share/ansible/library
 
 RUN mkdir /opt/ansible
 
