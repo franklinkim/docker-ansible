@@ -16,7 +16,7 @@ Vagrant.configure("2") do |config|
   config.vbguest.no_remote = true
   config.vbguest.auto_update = false
 
-  config.vm.box = 'ubuntu/trusty64'
+  config.vm.box = 'ubuntu/precise64'
 
   config.vm.provision "shell", inline: $script
 end

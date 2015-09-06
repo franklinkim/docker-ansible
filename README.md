@@ -7,7 +7,7 @@
 ```
 $ git clone https://github.com/franklinkim/docker-ansible
 $ cd docker-ansible
-$ git checkout trusty
+$ git checkout precise
 $ vagrant up
 ```
 
