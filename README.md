@@ -2,6 +2,32 @@
 
 > A Docker base container including Ansible.
 
+## Usage
+
+Pull container
+
+```
+$ docker pull franklinkim/ansible:ubuntu-trusty
+```
+
+Run a ansible adhoc command:
+
+```
+$ docker run franklinkim/ansbile:ubuntu-trusty ansible all -i "localhost," -c local -m shell -a 'echo hello world'
+```
+
+Run a ansible playbook:
+
+```
+$ ls -la
+  roles/
+    my_role/
+    my_other_role/
+  playbook.yml
+
+$ docker run -v $(pwd):/opt/ansible franklinkim/ansbile:ubuntu-trusty ansible-playbook -i 'localhost,' -c local /opt/ansible/playbook.yml
+```
+
 ## Testing
 
 ```
