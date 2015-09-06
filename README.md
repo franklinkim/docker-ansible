@@ -6,8 +6,8 @@
 
 Each version is available through it's own branch:
 
-* [trusty](https://github.com/franklinkim/docker-ansible/tree/trusty)
-* [precise](https://github.com/franklinkim/docker-ansible/tree/precise)
+* [Ubuntu trusty](https://github.com/franklinkim/docker-ansible/tree/ubuntu-trusty)
+* [Ubunut precise](https://github.com/franklinkim/docker-ansible/tree/ubuntu-precise)
 
 ## Testing
 
