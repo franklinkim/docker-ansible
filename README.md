@@ -1,5 +1,7 @@
 # Docker Ansible
 
+**DEPRICATED: this repository is not beeing maintained any longer! Please use i.e. [williamyeh/ansible](https://hub.docker.com/r/williamyeh/ansible/)**
+
 > A Docker base container including Ansible.
 
 ## Versions
