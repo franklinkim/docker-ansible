@@ -28,15 +28,6 @@ $ ls -la
 $ docker run -v $(pwd):/opt/ansible franklinkim/ansbile:ubuntu-precise ansible-playbook -i 'localhost,' -c local /opt/ansible/playbook.yml
 ```
 
-## Testing
-
-```
-$ git clone https://github.com/franklinkim/docker-ansible
-$ cd docker-ansible
-$ git checkout precise
-$ vagrant up
-```
-
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests and examples for any new or changed functionality.
 
